@@ -1,53 +1,77 @@
 site_name: Creio Docs
 # site_url: https://ctlos.gitlab.io/
 site_url: https://creio.gitlab.io/cvc
+repo_name: creio/cvc
 repo_url: https://gitlab.com/creio/cvc
 edit_uri: "blob/master/docs"
 site_description: Заметки о Linux и не только.
 site_author: Alex Creio
-copyright: Copyright &copy; 2014 <a href="https://twitter.com/_tomchristie">Tom Christie</a>, Maintained by the <a href="/about/release-notes/#maintenance-team">MkDocs Team</a>.
+copyright: Copyright &copy; <a href="https://t.me/cretm">Alex Creio</a>.
+
+nav:
+  - Главная: index.md
+  - О сайте: wois.md
+  - User Guide:
+    - Writing Your Docs: user-guide/writing-your-docs.md
+    - Styling Your Docs: user-guide/styling-your-docs.md
+    - Configuration: user-guide/configuration.md
+    - Deploying Your Docs: user-guide/deploying-your-docs.md
+    - Custom Themes: user-guide/custom-themes.md
+    - Plugins: user-guide/plugins.md
+  - Extensions:
+    - Admonition: extensions/admonition.md
+    - CodeHilite: extensions/codehilite.md
+    - Footnotes: extensions/footnotes.md
+    - Metadata: extensions/metadata.md
+    - Permalinks: extensions/permalinks.md
+    - PyMdown: extensions/pymdown.md
+  - About:
+    - Release Notes: about/release-notes.md
+    - Contributing: about/contributing.md
+    - License: about/license.md
 
 theme:
-  # name: readthedocs
   name: material
+  custom_dir: 'mymt'
   palette:
     primary: 'indigo'
     accent: 'indigo'
-  logo: 'img/logo/clogo-wd.svg'
-  issue_tracker: https://gitlab.com/creio/cvc/issues
-  highlightjs: true
-  hljs_languages:
-    - yaml
-    - django
+  logo: 'assets/img/logo/logo-wd.svg'
+  favicon: 'assets/img/favicon/favicon.ico'
+  language: 'ru'
+  feature:
+    tabs: false
 
-nav:
-  - Home: index.md
-  - About: wois.md
-  - READ: 'pages/READ.md'
-  # - User Guide:
-      # - Writing Your Docs: user-guide/writing-your-docs.md
-      # - Styling Your Docs: user-guide/styling-your-docs.md
-      # - Configuration: user-guide/configuration.md
-      # - Deploying Your Docs: user-guide/deploying-your-docs.md
-      # - Custom Themes: user-guide/custom-themes.md
-      # - Plugins: user-guide/plugins.md
-  # - About:
-      # - Release Notes: about/release-notes.md
-      # - Contributing: about/contributing.md
-      # - License: about/license.md
+extra:
+  search:
+    language: 'ru, en, de'
+  social:
+    - type: globe
+      link: http://struct.cc
+    - type: github-alt
+      link: https://github.com/squidfunk
+    - type: twitter
+      link: https://twitter.com/squidfunk
+    - type: linkedin
+      link: https://linkedin.com/in/squidfunk
+  # disqus: 'your-shortname'
 
 extra_css:
-  - css/extra.css
+  - assets/css/extra.css
 
+extra_javascript:
+  - 'assets/js/main.js'
+
+# Extensions
 markdown_extensions:
-  - extra
   - admonition
-  - smarty
-  - codehilite
+  - codehilite:
+      linenums: true
+      # guess_lang: false
   - toc:
       permalink: true
+  - meta
       
-google_analytics: ['UA-2779io5084-5', 'mkdocs.org']
-
-plugins:
-  - search
+google_analytics:
+  - 'UA-XXXXXXXX-X'
+  - 'auto'

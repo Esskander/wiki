@@ -1,3 +1,4 @@
+description: Nullam urna elit, malesuada eget finibus ut, ac tortor.
 hero: Metadata enables hero teaser texts
 path: blob/master/docs/extensions
 source: metadata.md

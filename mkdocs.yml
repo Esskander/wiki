@@ -6,7 +6,7 @@ repo_url: https://gitlab.com/creio/cvc
 edit_uri: "blob/master/docs"
 site_description: Заметки о Linux и не только.
 site_author: Alex Creio
-copyright: Copyright &copy; <a href="https://t.me/cretm">Alex Creio</a>.
+copyright: Copyright &copy; <a href="https://cvc.hashbase.io">Alex Creio</a>.
 
 nav:
   - Главная: index.md
@@ -46,14 +46,16 @@ extra:
   search:
     language: 'ru, en, de'
   social:
-    - type: globe
-      link: http://struct.cc
+    - type: telegram-plane
+      link: https://t.me/cretm
+    - type: youtube
+      link: https://www.youtube.com/channel/UCPCp_ZnMKEwYdnA_YfOZrZg?sub_confirmation=1
+    - type: vk
+      link: https://vk.com/creio
     - type: github-alt
-      link: https://github.com/squidfunk
-    - type: twitter
-      link: https://twitter.com/squidfunk
-    - type: linkedin
-      link: https://linkedin.com/in/squidfunk
+      link: https://github.com/creio
+    - type: gitlab
+      link: https://gitlab.com/creio
   # disqus: 'your-shortname'
 
 extra_css:

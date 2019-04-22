@@ -10,6 +10,10 @@ copyright: Copyright &copy; 2014 <a href="https://twitter.com/_tomchristie">Tom 
 theme:
   # name: readthedocs
   name: material
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  logo: 'img/logo/clogo-wd.svg'
   issue_tracker: https://gitlab.com/creio/cvc/issues
   highlightjs: true
   hljs_languages:

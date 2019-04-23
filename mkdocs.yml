@@ -9,8 +9,6 @@ site_author: Alex Creio
 copyright: Copyright &copy; <a href="https://cvc.hashbase.io">Alex Creio</a>.
 
 nav:
-  - Главная: index.md
-  - О сайте: wois.md
   - User Guide:
     - Writing Your Docs: user-guide/writing-your-docs.md
     - Styling Your Docs: user-guide/styling-your-docs.md
@@ -25,10 +23,11 @@ nav:
     - Metadata: extensions/metadata.md
     - Permalinks: extensions/permalinks.md
     - PyMdown: extensions/pymdown.md
-  - About:
-    - Release Notes: about/release-notes.md
-    - Contributing: about/contributing.md
-    - License: about/license.md
+  # - About:
+  #   - Release Notes: about/release-notes.md
+  #   - Contributing: about/contributing.md
+  #   - License: about/license.md
+  - О сайте: whois.md
 
 theme:
   name: material

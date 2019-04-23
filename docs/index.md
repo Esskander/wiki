@@ -8,7 +8,7 @@
 
 <!-- <a href="https://www.youtube.com/watch?v=b-_dZiyUT8M" class="video-link">Video Мануал</a> -->
 
-[Video Мануал](https://www.youtube.com/watch?v=b-_dZiyUT8M){:.video-link}
+[Video Мануал](https://www.youtube.com/watch?v=b-_dZiyUT8M){:class="video-link"}
 
 Официальный гайд [mkdocs-material/getting-started](https://squidfunk.github.io/mkdocs-material/getting-started/). Я переработал данную тему под ру сегмент, обновил `css` файл Font Awesome, иконочный шрифт и добавил некоторые библиотеки js.
 

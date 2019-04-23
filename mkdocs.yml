@@ -9,6 +9,7 @@ site_author: Alex Creio
 copyright: Copyright &copy; <a href="https://cvc.hashbase.io">Alex Creio</a>.
 
 nav:
+  - MkDocs Material: index.md
   - User Guide:
     - Writing Your Docs: user-guide/writing-your-docs.md
     - Styling Your Docs: user-guide/styling-your-docs.md
@@ -27,7 +28,6 @@ nav:
   #   - Release Notes: about/release-notes.md
   #   - Contributing: about/contributing.md
   #   - License: about/license.md
-  - О сайте: whois.md
 
 theme:
   name: material
@@ -58,7 +58,7 @@ extra:
   # disqus: 'your-shortname'
 
 extra_css:
-  - assets/css/extra.css
+  - assets/css/main.css
 
 extra_javascript:
   - 'assets/js/main.js'

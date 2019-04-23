@@ -59,9 +59,12 @@ extra:
 
 extra_css:
   - assets/css/main.css
+  - assets/libs/magnific-popup/magnific-popup.css
 
 extra_javascript:
-  - 'assets/js/main.js'
+  - assets/libs/jquery/jquery-3.4.0.min.js
+  - assets/libs/magnific-popup/jquery.magnific-popup.min.js
+  - assets/js/main.js
 
 # Extensions
 markdown_extensions:

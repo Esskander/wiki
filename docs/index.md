@@ -6,7 +6,7 @@
   <iframe src="https://www.youtube.com/embed/ljRDkQVOlqU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div> -->
 
-<a href="https://www.youtube.com/watch?v=b-_dZiyUT8M" class="video-link">Video Мануал</a>
+<a href="https://www.youtube.com/watch?v=V2ZNzqwlQjw" class="video-link">Video Мануал</a>
 
 Официальный гайд [mkdocs-material/getting-started](https://squidfunk.github.io/mkdocs-material/getting-started/). Я переработал данную тему под ру сегмент, обновил `css` файл Font Awesome, иконочный шрифт и добавил некоторые библиотеки js.
 
